@@ -1,0 +1,21 @@
+{
+  "name": "yarden-test-phaser",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Test de faisabilité : donjon du Chapitre 1 en Phaser, sprites PixelLab, mobile portrait",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "sprites": "python3 tools/pack_sprites.py",
+    "test": "node --test tests/logic.test.mjs"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.7"
+  }
+}

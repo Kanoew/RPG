@@ -1,0 +1,48 @@
+{
+  "source_canvas": 256,
+  "crop": [
+    16,
+    8,
+    242,
+    252
+  ],
+  "dirs": [
+    "east",
+    "south-east",
+    "south",
+    "south-west",
+    "west",
+    "north-west",
+    "north",
+    "north-east"
+  ],
+  "run_frames": 6,
+  "variants": {
+    "full": {
+      "frame_w": 226,
+      "frame_h": 244,
+      "run_sheet": [
+        1356,
+        1952
+      ],
+      "bow_sheet": [
+        1808,
+        244
+      ],
+      "gpu_bytes": 12352256
+    },
+    "half": {
+      "frame_w": 113,
+      "frame_h": 122,
+      "run_sheet": [
+        678,
+        976
+      ],
+      "bow_sheet": [
+        904,
+        122
+      ],
+      "gpu_bytes": 3088064
+    }
+  }
+}
